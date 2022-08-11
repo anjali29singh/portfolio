@@ -1,58 +1,24 @@
-
-.codeforces{
-    background-color:whitesmoke;
-    color:rgb(175, 4, 4);
-    font-style: oblique;
-    font-size:larger;
-    width: 120px;
-    height: 40px;
-    font-weight: bold;
-    border-radius:5px;
-    border:none;
-    margin-right:2mm;
+body{
+    background-color: rgb(41, 41, 41);
 }
-.linkedin{
-    background-color:rgb(2, 2, 183);
-    color:white;
-    font-size:larger;
+.intro{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    row-gap:20px;
+
+}
+.profile-box{
+    width: 15vw;
+}
+.image{
+    width:inherit;
+}
+.hello{
+    font-size:20px;
     font-weight:bolder;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width:120px;
-    height:40px;
-    margin-right:2mm;
-    border:none;
-}
-.github{
-    background-color:black;
     color:white;
-    font-weight: bolder;
-    font-size:larger;
-    border:none;
-    border-radius:100%;
-    height:50px;
-    width:100px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right:2mm;
 }
-.insta{
-    background-color:deeppink;
-    color:white;
-    height: 60px;
-    width:90px;
-    font-style:italic;
-    font-weight: bolder;
-    border-radius:20px;
-    font-size: medium;
-    border:none;
-}
-
-#intro{
-    color:black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:larger;
-}
-
-
 .wave {
     animation-name: wave-animation;
     animation-duration: 2.5s;
@@ -93,6 +59,39 @@
     a {
         text-decoration: none;
     }
-.main{
-    color:black;
+.about-me-social-links{
+    display:flex;
+    flex-direction: row;  
+    align-items:stretch;
+}
+.everything{
+    color:white;
+    font-style:italic;
+    font-size:25px;
+    width: 50vw;
+    padding-left:15px;
+}
+.learn{
+    margin-top: 8px;
+}
+.interest{
+    margin-top: 8px;
+}
+.social-links{
+    padding-left:40px;
+    width:50vh;
+    font-size: 25px;
+}
+.insta-img,.codeforces,.github,.linkedin{
+    width:3vw;
+    padding-left:3px;
+    margin-left:8px;
+
+}
+.codeforces{
+    border-radius: 50%;
+}
+.github{
+    width:5vw;
+    border-radius:60px;
 }
